@@ -1,0 +1,3 @@
+X é um valor de entrada, o X é multiplicado por um peso e esse valor é passado para uma função de ativação. 
+O resultado é verificado pra saber se ativa ou não o neurônio. 
+
