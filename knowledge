@@ -1,3 +1,6 @@
 X é um valor de entrada, o X é multiplicado por um peso e esse valor é passado para uma função de ativação. 
 O resultado é verificado pra saber se ativa ou não o neurônio. 
 
+A imagem é uma matriz e o kernel é outra matriz. A matriz imagem é passada para um kernel para gerar uma matriz menor
+gerando um mapa. O mapa é passando por um pulling gerando uma matriz ainda menor com as principais caracteristicas da imagem.
+É realizado o fletteling pra gerar a matriz final.
