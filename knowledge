@@ -4,3 +4,75 @@ O resultado é verificado pra saber se ativa ou não o neurônio.
 A imagem é uma matriz e o kernel é outra matriz. A matriz imagem é passada para um kernel para gerar uma matriz menor
 gerando um mapa. O mapa é passando por um pulling gerando uma matriz ainda menor com as principais caracteristicas da imagem.
 É realizado o fletteling pra gerar a matriz final.
+
+convolucional, regressao, 
+
+vgans -> usa valores negativos
+
+kernel -> mapa de caracteristicas, matriz 5x5
+
+arquitetura convolucional, pulling
+
+gera o flattlen e cria o vetor
+
+alto encoder pra remover ruido de imagem 
+
+primeira parte da prova -> cnn
+
+segunda parte da prova -> gans
+
+imagem colorida -> tem o ultimo valor como 3
+
+revel
+
+reshape
+
+escala -> (total, (x_pixels, y_pixels, rgb/black)) ex: 6000, 28, 28, 1 {1 = gray, 3 = rgb}
+
+* -> desempacotador
+
+args, keyargs
+
+verdadeiro positivo, falso positivo
+verdadeiro negativo, falso negativo
+
+dos verdadeiros, quantos eu realmente acertei -> precision
+
+GANs -> taca uma imagem ruido e o discriminador cria uma imagem a partir dos dados já existentes como treinamento
+
+cria imagens a partir de textos, a partir de imagens 
+
+mlp, camadas de convolução/convolucionais
+
+uma GANs pra analizar e uma GANs pra 
+
+redes neurais lstm
+
+gerador e discriminador -> verdade = treina o discriminador, toda vez que receber algo, ele consegre discernir para gerar
+
+gerador -> treina 1 vez
+
+discriminador -> treina de 3 ou 5 vezes, diz se é ou não é algo real
+
+
+camada densa, backpropagation, retropropagar pro discriminador
+
+resumo: discriminador recebe o que é real, o gerador gera um "ruido", se for verdadeiro continua, 
+se for falso ele repassa pro discriminador e assim sucessivamente.
+
+
+gerador <-> gerar
+discriminador <-> analisar e avaliar
+
+relu -> não usar quando forem valores negativos
+leakyrelu -> usar quando forem valores negativos, tratar valores negativos
+
+tangente hiperbolica 
+
+
+
+
+
+
+
+
